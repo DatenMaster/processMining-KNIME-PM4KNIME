@@ -1,0 +1,1475 @@
+<?xml version="1.0"?>
+<log xmlns="http://www.xes-standard.org/" xes.version="2.0">
+<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+<extension name="Time" prefix="concept" uri="http://www.xes-standard.org/time.xesext" />
+<global scope="trace">
+</global>
+<global scope="event">
+<string key="concept:name" value="default"/>
+<string key="org:resource" value="default"/>
+<string key="concept:instance" value="default"/>
+<string key="lifecycle:transition" value="default"/>
+<date key="time:timestamp" value="1970-01-01T00:00:00.000+00:00"/>
+<string key=".order" value="default"/>
+</global>
+<trace>
+<string key="concept:name" value="1"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="1"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:01.000+00:00"/>
+<string key=".order" value="1"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="2"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:02.000+00:00"/>
+<string key=".order" value="2"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="3"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:05.000+00:00"/>
+<string key=".order" value="3"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="4"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:10.000+00:00"/>
+<string key=".order" value="4"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="5"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:11.000+00:00"/>
+<string key=".order" value="5"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="6"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:12.000+00:00"/>
+<string key=".order" value="6"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="2"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="7"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:13.000+00:00"/>
+<string key=".order" value="7"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="8"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:14.000+00:00"/>
+<string key=".order" value="8"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="9"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:17.000+00:00"/>
+<string key=".order" value="9"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="10"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:22.000+00:00"/>
+<string key=".order" value="10"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="11"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:23.000+00:00"/>
+<string key=".order" value="11"/>
+</event>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="12"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:24.000+00:00"/>
+<string key=".order" value="12"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="13"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:25.000+00:00"/>
+<string key=".order" value="13"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="14"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:28.000+00:00"/>
+<string key=".order" value="14"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="15"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:33.000+00:00"/>
+<string key=".order" value="15"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="16"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:34.000+00:00"/>
+<string key=".order" value="16"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="17"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:35.000+00:00"/>
+<string key=".order" value="17"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="3"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="18"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:36.000+00:00"/>
+<string key=".order" value="18"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="19"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:37.000+00:00"/>
+<string key=".order" value="19"/>
+</event>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="20"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:38.000+00:00"/>
+<string key=".order" value="20"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="21"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:39.000+00:00"/>
+<string key=".order" value="21"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="22"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:42.000+00:00"/>
+<string key=".order" value="22"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="23"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:47.000+00:00"/>
+<string key=".order" value="23"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="24"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:50.000+00:00"/>
+<string key=".order" value="24"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="25"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:55.000+00:00"/>
+<string key=".order" value="25"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="26"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:00:58.000+00:00"/>
+<string key=".order" value="26"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="27"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:03.000+00:00"/>
+<string key=".order" value="27"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="28"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:04.000+00:00"/>
+<string key=".order" value="28"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="29"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:05.000+00:00"/>
+<string key=".order" value="29"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="4"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="30"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:06.000+00:00"/>
+<string key=".order" value="30"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="31"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:07.000+00:00"/>
+<string key=".order" value="31"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="32"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:10.000+00:00"/>
+<string key=".order" value="32"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="33"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:15.000+00:00"/>
+<string key=".order" value="33"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="34"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:16.000+00:00"/>
+<string key=".order" value="34"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="35"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:17.000+00:00"/>
+<string key=".order" value="35"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="5"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="36"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:18.000+00:00"/>
+<string key=".order" value="36"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="37"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:19.000+00:00"/>
+<string key=".order" value="37"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="38"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:22.000+00:00"/>
+<string key=".order" value="38"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="39"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:27.000+00:00"/>
+<string key=".order" value="39"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="40"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:28.000+00:00"/>
+<string key=".order" value="40"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="41"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:29.000+00:00"/>
+<string key=".order" value="41"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="6"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="42"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:30.000+00:00"/>
+<string key=".order" value="42"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="43"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:31.000+00:00"/>
+<string key=".order" value="43"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="44"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:34.000+00:00"/>
+<string key=".order" value="44"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="45"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:39.000+00:00"/>
+<string key=".order" value="45"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="46"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:40.000+00:00"/>
+<string key=".order" value="46"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="47"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:41.000+00:00"/>
+<string key=".order" value="47"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="7"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="48"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:42.000+00:00"/>
+<string key=".order" value="48"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="49"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:43.000+00:00"/>
+<string key=".order" value="49"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="50"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:46.000+00:00"/>
+<string key=".order" value="50"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="51"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:51.000+00:00"/>
+<string key=".order" value="51"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="52"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:52.000+00:00"/>
+<string key=".order" value="52"/>
+</event>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="53"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:53.000+00:00"/>
+<string key=".order" value="53"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="54"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:54.000+00:00"/>
+<string key=".order" value="54"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="55"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:01:57.000+00:00"/>
+<string key=".order" value="55"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="56"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:02.000+00:00"/>
+<string key=".order" value="56"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="57"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:03.000+00:00"/>
+<string key=".order" value="57"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="58"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:04.000+00:00"/>
+<string key=".order" value="58"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="8"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="59"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:05.000+00:00"/>
+<string key=".order" value="59"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="60"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:06.000+00:00"/>
+<string key=".order" value="60"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="61"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:09.000+00:00"/>
+<string key=".order" value="61"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="62"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:14.000+00:00"/>
+<string key=".order" value="62"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="63"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:15.000+00:00"/>
+<string key=".order" value="63"/>
+</event>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="64"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:16.000+00:00"/>
+<string key=".order" value="64"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="65"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:17.000+00:00"/>
+<string key=".order" value="65"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="66"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:20.000+00:00"/>
+<string key=".order" value="66"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="67"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:25.000+00:00"/>
+<string key=".order" value="67"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="68"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:26.000+00:00"/>
+<string key=".order" value="68"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="69"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:27.000+00:00"/>
+<string key=".order" value="69"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="9"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="70"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:28.000+00:00"/>
+<string key=".order" value="70"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="71"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:29.000+00:00"/>
+<string key=".order" value="71"/>
+</event>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="72"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:30.000+00:00"/>
+<string key=".order" value="72"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="73"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:31.000+00:00"/>
+<string key=".order" value="73"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="74"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:34.000+00:00"/>
+<string key=".order" value="74"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="75"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:39.000+00:00"/>
+<string key=".order" value="75"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="76"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:42.000+00:00"/>
+<string key=".order" value="76"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="77"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:47.000+00:00"/>
+<string key=".order" value="77"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="78"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:50.000+00:00"/>
+<string key=".order" value="78"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="79"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:55.000+00:00"/>
+<string key=".order" value="79"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="80"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:56.000+00:00"/>
+<string key=".order" value="80"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="81"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:57.000+00:00"/>
+<string key=".order" value="81"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="10"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="82"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:58.000+00:00"/>
+<string key=".order" value="82"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="83"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:02:59.000+00:00"/>
+<string key=".order" value="83"/>
+</event>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="84"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:00.000+00:00"/>
+<string key=".order" value="84"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="85"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:01.000+00:00"/>
+<string key=".order" value="85"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="86"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:04.000+00:00"/>
+<string key=".order" value="86"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="87"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:09.000+00:00"/>
+<string key=".order" value="87"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="88"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:12.000+00:00"/>
+<string key=".order" value="88"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="89"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:17.000+00:00"/>
+<string key=".order" value="89"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="90"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:18.000+00:00"/>
+<string key=".order" value="90"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="91"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:19.000+00:00"/>
+<string key=".order" value="91"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="11"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="92"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:20.000+00:00"/>
+<string key=".order" value="92"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="93"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:21.000+00:00"/>
+<string key=".order" value="93"/>
+</event>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="94"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:22.000+00:00"/>
+<string key=".order" value="94"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="95"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:23.000+00:00"/>
+<string key=".order" value="95"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="96"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:26.000+00:00"/>
+<string key=".order" value="96"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="97"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:31.000+00:00"/>
+<string key=".order" value="97"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="98"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:34.000+00:00"/>
+<string key=".order" value="98"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="99"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:39.000+00:00"/>
+<string key=".order" value="99"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="100"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:40.000+00:00"/>
+<string key=".order" value="100"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="101"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:41.000+00:00"/>
+<string key=".order" value="101"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="12"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="102"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:42.000+00:00"/>
+<string key=".order" value="102"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="103"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:43.000+00:00"/>
+<string key=".order" value="103"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="104"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:46.000+00:00"/>
+<string key=".order" value="104"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="105"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:51.000+00:00"/>
+<string key=".order" value="105"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="106"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:54.000+00:00"/>
+<string key=".order" value="106"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="107"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:03:59.000+00:00"/>
+<string key=".order" value="107"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="108"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:00.000+00:00"/>
+<string key=".order" value="108"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="109"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:01.000+00:00"/>
+<string key=".order" value="109"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="13"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="110"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:02.000+00:00"/>
+<string key=".order" value="110"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="111"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:03.000+00:00"/>
+<string key=".order" value="111"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="112"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:06.000+00:00"/>
+<string key=".order" value="112"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="113"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:11.000+00:00"/>
+<string key=".order" value="113"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="114"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:14.000+00:00"/>
+<string key=".order" value="114"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="115"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:19.000+00:00"/>
+<string key=".order" value="115"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="116"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:20.000+00:00"/>
+<string key=".order" value="116"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="117"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:21.000+00:00"/>
+<string key=".order" value="117"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="14"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="118"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:22.000+00:00"/>
+<string key=".order" value="118"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="119"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:23.000+00:00"/>
+<string key=".order" value="119"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="120"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:26.000+00:00"/>
+<string key=".order" value="120"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="121"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:31.000+00:00"/>
+<string key=".order" value="121"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="122"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:34.000+00:00"/>
+<string key=".order" value="122"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="123"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:39.000+00:00"/>
+<string key=".order" value="123"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="124"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:42.000+00:00"/>
+<string key=".order" value="124"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="125"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:47.000+00:00"/>
+<string key=".order" value="125"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="126"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:48.000+00:00"/>
+<string key=".order" value="126"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="127"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:49.000+00:00"/>
+<string key=".order" value="127"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="15"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="128"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:50.000+00:00"/>
+<string key=".order" value="128"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="129"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:51.000+00:00"/>
+<string key=".order" value="129"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="130"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:54.000+00:00"/>
+<string key=".order" value="130"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="131"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:04:59.000+00:00"/>
+<string key=".order" value="131"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="132"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:02.000+00:00"/>
+<string key=".order" value="132"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="133"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:07.000+00:00"/>
+<string key=".order" value="133"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="134"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:10.000+00:00"/>
+<string key=".order" value="134"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="135"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:15.000+00:00"/>
+<string key=".order" value="135"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="136"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:16.000+00:00"/>
+<string key=".order" value="136"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="137"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:17.000+00:00"/>
+<string key=".order" value="137"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="16"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="138"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:18.000+00:00"/>
+<string key=".order" value="138"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="139"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:19.000+00:00"/>
+<string key=".order" value="139"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="140"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:22.000+00:00"/>
+<string key=".order" value="140"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="141"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:27.000+00:00"/>
+<string key=".order" value="141"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="142"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:30.000+00:00"/>
+<string key=".order" value="142"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="143"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:35.000+00:00"/>
+<string key=".order" value="143"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="144"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:38.000+00:00"/>
+<string key=".order" value="144"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="145"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:43.000+00:00"/>
+<string key=".order" value="145"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="146"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:44.000+00:00"/>
+<string key=".order" value="146"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="147"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:45.000+00:00"/>
+<string key=".order" value="147"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="17"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="148"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:46.000+00:00"/>
+<string key=".order" value="148"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="149"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:47.000+00:00"/>
+<string key=".order" value="149"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="150"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:50.000+00:00"/>
+<string key=".order" value="150"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="151"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:55.000+00:00"/>
+<string key=".order" value="151"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="152"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:05:58.000+00:00"/>
+<string key=".order" value="152"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="153"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:03.000+00:00"/>
+<string key=".order" value="153"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="154"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:06.000+00:00"/>
+<string key=".order" value="154"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="155"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:11.000+00:00"/>
+<string key=".order" value="155"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="156"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:12.000+00:00"/>
+<string key=".order" value="156"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="157"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:13.000+00:00"/>
+<string key=".order" value="157"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="18"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="158"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:14.000+00:00"/>
+<string key=".order" value="158"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="159"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:15.000+00:00"/>
+<string key=".order" value="159"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="160"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:18.000+00:00"/>
+<string key=".order" value="160"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="161"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:23.000+00:00"/>
+<string key=".order" value="161"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="162"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:24.000+00:00"/>
+<string key=".order" value="162"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="163"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:25.000+00:00"/>
+<string key=".order" value="163"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="19"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="164"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:26.000+00:00"/>
+<string key=".order" value="164"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="165"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:27.000+00:00"/>
+<string key=".order" value="165"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="166"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:30.000+00:00"/>
+<string key=".order" value="166"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="167"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:35.000+00:00"/>
+<string key=".order" value="167"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="168"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:36.000+00:00"/>
+<string key=".order" value="168"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="169"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:37.000+00:00"/>
+<string key=".order" value="169"/>
+</event>
+</trace>
+<trace>
+<string key="concept:name" value="20"/>
+<event>
+<string key="concept:name" value="PROBLEMVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_1"/>
+<string key="concept:instance" value="170"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:38.000+00:00"/>
+<string key=".order" value="170"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVERSTAENDNIS"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="171"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:39.000+00:00"/>
+<string key=".order" value="171"/>
+</event>
+<event>
+<string key="concept:name" value="DATENVORBEREITUNG"/>
+<string key="org:resource" value="PERSON_2"/>
+<string key="concept:instance" value="172"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:42.000+00:00"/>
+<string key=".order" value="172"/>
+</event>
+<event>
+<string key="concept:name" value="DATENMODELLIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="173"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:47.000+00:00"/>
+<string key=".order" value="173"/>
+</event>
+<event>
+<string key="concept:name" value="DATENEVALUIERUNG"/>
+<string key="org:resource" value="PERSON_3"/>
+<string key="concept:instance" value="174"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:48.000+00:00"/>
+<string key=".order" value="174"/>
+</event>
+<event>
+<string key="concept:name" value="DEPLOYMENT"/>
+<string key="org:resource" value="PERSON_4"/>
+<string key="concept:instance" value="175"/>
+<string key="lifecycle:transition" value="Time"/>
+<date key="time:timestamp" value="2019-07-05T00:06:49.000+00:00"/>
+<string key=".order" value="175"/>
+</event>
+</trace>
+</log>
